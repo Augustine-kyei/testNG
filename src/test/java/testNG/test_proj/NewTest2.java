@@ -11,14 +11,15 @@ import org.testng.annotations.AfterTest;
 public class NewTest2 {
 	
 	
-	//WebDriver driver;
+	WebDriver driver;
+	//WebDriver  driver = new ChromeDriver();
 
 	
 	  @BeforeMethod
 	  public void beforeMethod() {
-		  
+		  //WebDriver  driver = new ChromeDriver();
 		  System.setProperty("webdriver.chrome.driver", "C:\\Users\\austi\\Desktop\\DevOps\\Selenium Folder\\Selenium 3.4\\Drivers\\chromedriver.exe");
-		WebDriver  driver = new ChromeDriver();
+		  WebDriver  driver = new ChromeDriver();
 		 String appUrl = "http://3.21.103.115:32768";
 		 driver.get(appUrl);
 		 
