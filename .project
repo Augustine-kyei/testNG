@@ -20,4 +20,11 @@
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>org.eclipse.m2e.core.maven2Nature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>Selenium 3.4</name>
+			<type>2</type>
+			<location>C:/eclipse-workspace/EdurecaDevOps/Selenium 3.4</location>
+		</link>
+	</linkedResources>
 </projectDescription>
