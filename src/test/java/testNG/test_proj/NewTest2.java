@@ -12,7 +12,7 @@ public class NewTest2 {
 	
 	
 	WebDriver driver;
-	//WebDriver  driver = new ChromeDriver();
+	
 
 	
 	  @BeforeMethod
