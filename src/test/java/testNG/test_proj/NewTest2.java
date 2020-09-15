@@ -18,7 +18,7 @@ public class NewTest2 {
 	  @BeforeMethod
 	  public void beforeMethod() {
 		  //WebDriver  driver = new ChromeDriver();
-		  System.setProperty("webdriver.chrome.driver", "\\Selenium 3.4\\Drivers\\chromedriver.exe");
+		  System.setProperty("webdriver.chrome.driver", "Selenium 3.4//Drivers//chromedriver.exe");
 		  WebDriver  driver = new ChromeDriver();
 		 String appUrl = "http://3.21.103.115:32768";
 		 driver.get(appUrl);
